@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.fbansept.demo.android.blocnote">
+    package="edu.fbansept.demo.android.pocsynchro">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BlocNote"
         android:usesCleartextTraffic="true">
-        <activity android:name=".view.ListeNoteActivity" />
-        <activity android:name=".view.EditionActivity" />
-        <activity android:name=".view.LoginActivity">
+        <activity android:name="edu.fbansept.demo.android.pocsynchro.view.ListeIncidentActivity" />
+        <activity android:name="edu.fbansept.demo.android.pocsynchro.view.EditionIncidentActivity" />
+        <activity android:name="edu.fbansept.demo.android.pocsynchro.view.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

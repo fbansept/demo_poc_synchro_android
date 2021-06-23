@@ -13,7 +13,7 @@
         android:title="Fichier"
         app:showAsAction="always" />
     <item
-        android:id="@+id/menuItem_supprimerNote"
+        android:id="@+id/menuItem_supprimerIncident"
         android:icon="@drawable/ic_baseline_delete_24"
         android:title="Supprimer"
         app:showAsAction="always" />
